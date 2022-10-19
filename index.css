@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+.giant-container {
+    background-color: rgb(255, 249, 242);
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-item {
+    height: 42.5rem;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-text {
+    text-align: center;
+}
+.card-body{
+    background-color: rgb(255, 249, 242);
+    border: none;
+}
+.our-services {
+    display: flex;
+}
+.b1{
+ background-color: rgb(44, 9, 9);
+ color: white;
+ padding: 5px;
+ width: 7rem;
+ height: 3rem;
+ font-weight: 700;
+}
+.b2{
+    background-color: rgb(221, 144, 0);
+    color: black;
+    padding: 5px;
+    width: 7rem;
+    height: 3rem;
+    font-weight: 700;   
+}
+.bgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    margin: 2rem;
+}
+
+.text {
+    margin: 1rem;
+}
+
+.sign {
+    display: flex;
+}
+
+.discount {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/master/pass/Basically-Coffee-0219-03.jpg);
+
+}
+
+.discount-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+}
+.fa.fa-check.text-primary.mr-3{
+ color: orange;
+}
+.fa-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.4rem;
+    background-color: orange;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50px;
+}
+
+.text p {
+    font-size: larger;
+}
+
+button {
+    border: none;
+    height: 60px;
+    padding: 1rem;
+    background-color: orange;
+}
+footer{
+
+    height: 8rem;
+    margin-top: 3rem;
+    background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/master/pass/Basically-Coffee-0219-03.jpg);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 100%;
+    color: white;
+    background-color: rgba(36, 26, 0, 0.8);
+}
+input {
+    border: none;
+    padding: 1rem;
+}
+
+.menu-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30rem;
+}
+
+.mcard img {
+    height: 7rem;
+    border-radius: 60px;
+    margin-right: 1.5rem;
+}
+.navbar{
+    color: white;
+    background-color: none;
+    padding: 2rem;
+    position: relative;
+    z-index: 90;
+    top: -43rem;
+}
+
+.mcard {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    font-size: larger;
+}
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-item{
+    margin: 2rem;
+}
+.hot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.line{
+    height: 100px;
+    width: 2px;
+    background-color: rgb(219, 143, 0);
+}
+.cold {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+
+}
